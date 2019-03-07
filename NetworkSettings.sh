@@ -7,6 +7,9 @@
 echo "****************************************************"
 echo "Welcome" $USER
 echo "This script will configure standard network settings"
+echo "Make sure /etc/cloud/cloud.cfg has the setting
+echo "preserve_hostname: true"
+echo
 echo "Edit the script as needs"
 echo "****************************************************"
 

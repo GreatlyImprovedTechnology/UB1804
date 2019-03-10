@@ -2,7 +2,7 @@
 # by: JOR
 # Date: 10MAR19
 # Function: Configure network settings in UB1804
-# Script: AfterinstallUB1804.sh
+# Script: AfterInstall.sh
 
 sudo apt-get update
 sudo apt -y upgrade

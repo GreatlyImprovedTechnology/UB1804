@@ -1,4 +1,4 @@
-# Desktop
+# UB1804 Desktop
 1. Set a static IP address using GUI
 2. Copy ssh keys from another server using SetUpSSH.sh
 3. Create a directory called ~/Scripts

@@ -1,10 +1,11 @@
 #!/bin/bash
 # by: JOR
-# Date: 11DEC18
+# Date: 10MAR19
 # Function: Configure network settings in UB1804
-# Script: UB1804Upgrade.sh
+# Script: AfterinstallUB1804.sh
 
 sudo apt-get update
 sudo apt -y upgrade
 sudo apt install open-vm-tools
+sudo apt install openssh-server
 

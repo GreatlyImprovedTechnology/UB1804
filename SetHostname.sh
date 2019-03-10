@@ -14,7 +14,7 @@ echo "Edit the script as needs"
 echo "****************************************************"
 
 # Set variables based on VMWare Workstation NAT’d network
-HOSTNAME=ub1804-ca
+HOSTNAME=ub1804-pycharm
 
 if hostnamectl set-hostname $HOSTNAME
  then

@@ -1,7 +1,7 @@
 #!/bin/bash
 # by: JOR
 # Date: 10MAR19
-# Function: Configure network settings in UB1804
+# Function: Install software and do updates required for all systems
 # Script: AfterInstall.sh
 
 sudo apt-get update

@@ -9,6 +9,7 @@ Desktop
 5. Run UB1804/AfterInstall.sh 
 6. Run UB1804/SetHostname.sh*
 7. If using this machine for software development, run InstallPythonDev.sh
+8. Install PyCharm CE via the Ubuntu Software tool in the GUI
 
 Server
 1. Copy ssh keys from another server using SetUpSSH.sh

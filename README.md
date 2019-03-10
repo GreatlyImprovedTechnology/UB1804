@@ -8,6 +8,7 @@ Desktop
 4. Clone this repository (UB1804) into ~/Scripts
 5. Run UB1804/AfterInstall.sh 
 6. Run UB1804/SetHostname.sh*
+7. If using this machine for software development, run InstallPythonDev.sh
 
 Server
 1. Copy ssh keys from another server using SetUpSSH.sh

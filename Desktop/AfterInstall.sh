@@ -1,7 +1,7 @@
 #!/bin/bash
 # by: JOR
 # Date: 10MAR19
-# Function: Install software and do updates required for all systems
+# Function: Install software and do updates required for desktop systems
 # Script: AfterInstall.sh
 
 sudo apt-get update

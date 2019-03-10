@@ -1,10 +1,15 @@
 #!/bin/bash
 # by: JOR
-# Date: 11DEC18
+# Date: 10MAR19
 # Function: Perform a commit
 # Script: AddCommitPush.sh
 
 clear
+echo '*************************************************'
+echo 'Starting SSH agent'
+eval "$(ssh-agent -s)"
+echo 'Adding keys to the SSH agent'
+ssh-add ~/.ssh/JOR.rsa
 git status
 git config --global user.name "John.ORaw"
 git config --global user.email "john.oraw@iotech.ie"

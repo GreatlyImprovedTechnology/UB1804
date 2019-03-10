@@ -8,4 +8,4 @@ sudo apt-get update
 sudo apt -y upgrade
 sudo apt install open-vm-tools
 sudo apt install openssh-server
-
+sudo apt install git

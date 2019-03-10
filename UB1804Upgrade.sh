@@ -6,4 +6,5 @@
 
 sudo apt-get update
 sudo apt -y upgrade
+sudo apt install open-vm-tools
 

@@ -33,4 +33,4 @@ ssh-add ~/.ssh/local.rsa
 cd
 
 # Copy the ID to another server
-#ssh-copy-id -i ~/.ssh/local.pub johnoraw@ub1804-pycharm 
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@ub1804-ansibleserver

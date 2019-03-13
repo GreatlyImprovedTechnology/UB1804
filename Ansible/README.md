@@ -1,3 +1,3 @@
-# UB1804
-This repository created by JOR 10FEB19 for teaching UB1804.
+# Ansible
+This repository created by JOR 13MAR19 for teaching Ansible.
 

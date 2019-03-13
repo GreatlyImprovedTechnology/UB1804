@@ -11,7 +11,7 @@
 192.168.234.23    UB1804-SDPAAA
 
 # DB Servers
-192.168.234.31    UB1804-MariaDB1
+192.168.234.31    UB1804-MariaDB
 
 # Ansible Server
 192.168.234.51  	UB1804-AnsibleServer

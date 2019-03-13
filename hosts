@@ -3,17 +3,17 @@
 
 # Definitions by JOR 13MAR19
 192.168.234.1   	W10-JOR
-192.168.234.11    UB1804-PyCharm1
+192.168.234.11    PyCharm1
 
 # Interiority
-192.168.234.21    UB1804-SDPClient
-192.168.234.22    UB1804-SDPServer
-192.168.234.23    UB1804-SDPAAA
+192.168.234.21    SDPClient
+192.168.234.22    SDPServer
+192.168.234.23    SDPAAA
 
 # DB Servers
-192.168.234.31    UB1804-MariaDB
+192.168.234.31    MariaDB
 
 # Ansible Server
-192.168.234.51  	UB1804-AnsibleServer
-192.168.234.52  	UB1804-AnsibleTarget
+192.168.234.51  	AnsibleServer
+192.168.234.52  	AnsibleTarget
 

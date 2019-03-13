@@ -22,7 +22,7 @@ cd ~/.ssh
 #ssh-keygen -t rsa -b 4096 -f ~/.ssh/local.rsa -C john.oraw@hotmail.com
 
 # Or copy keys from another server
-scp johnoraw@192.168.191.11:.ssh/* ~/.ssh/
+#scp johnoraw@192.168.191.11:.ssh/* ~/.ssh/
 
 # Start the ssh agent
 eval "$(ssh-agent -s)"
@@ -32,3 +32,5 @@ ssh-add ~/.ssh/git.rsa
 ssh-add ~/.ssh/local.rsa
 cd
 
+# Copy the ID to another server
+#ssh-copy-id -i ~/.ssh/local.pub johnoraw@ub1804-pycharm 

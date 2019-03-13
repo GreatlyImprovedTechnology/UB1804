@@ -9,7 +9,7 @@ echo '*************************************************'
 echo 'Starting SSH agent'
 eval "$(ssh-agent -s)"
 echo 'Adding keys to the SSH agent'
-ssh-add ~/.ssh/JOR.rsa
+ssh-add ~/.ssh/git.rsa
 git status
 git config --global user.name "John.ORaw"
 git config --global user.email "john.oraw@iotech.ie"

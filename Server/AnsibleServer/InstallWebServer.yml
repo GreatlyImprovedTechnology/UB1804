@@ -1,0 +1,13 @@
+---
+- hosts: ub1804-webservers
+  remote_user: johnoraw
+  tasks:
+   - name: Install httpd RPM
+     apt: name=httpd
+   - name: Start the service
+     service: name=httpd state=started
+   - name: Open firewall port 80
+     firewalld: service=http permanent=true state=enabled
+   - name: Restart ehe firewalld service
+     service: name=firewalld state=restarted 
+  become: yes

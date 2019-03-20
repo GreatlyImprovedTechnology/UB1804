@@ -1,8 +1,8 @@
 #!/bin/bash
 # by: JOR
-# Date: 25FEB19
+# Date: 20MAR19
 # Function: Configure network settings in UB18.04.02
-# Script: sdpaaa.sh
+# Script: AnsibleTarget1.sh
 
 echo "****************************************************"
 echo "Welcome" $USER
@@ -11,8 +11,8 @@ echo "Edit the script as needs"
 echo "****************************************************"
 
 # Set variables based on VMWare Workstation NAT’d network
-HOSTNAME=ansibletarget
-IPADDR="192.168.234.52/24"
+HOSTNAME=ansibletarget1
+IPADDR="192.168.234.51/24"
 ADAPTER="ens33:"
 GATEWAY4="192.168.234.2"
 DNS1="9.9.9.9"

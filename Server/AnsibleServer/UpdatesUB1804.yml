@@ -1,0 +1,9 @@
+---
+- hosts: ub1804
+  remote_user: johnoraw
+  tasks:
+   - name: Update servers
+     apt: update_cache=yes
+   - name: Upgrade servers
+     apt: upgrade=dist
+  become: yes

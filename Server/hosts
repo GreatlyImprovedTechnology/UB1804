@@ -20,7 +20,13 @@ ff02::2 ip6-allrouters
 # DB Servers
 192.168.234.31   MariaDB
 
+<<<<<<< HEAD
 # Ansible Server
 192.168.234.51   AnsibleServer
 192.168.234.52   AnsibleTarget
+=======
+# Ansible
+192.168.234.51  	AnsibleTarget1
+192.168.234.52  	AnsibleTarget2
+>>>>>>> 88e149a8a68b4381f90dc477f91226c6d88af910
 

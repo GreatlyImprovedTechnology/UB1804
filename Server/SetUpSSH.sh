@@ -33,4 +33,10 @@ ssh-add ~/.ssh/local.rsa
 cd
 
 # Copy the ID to another server
-#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@ub1804-ansibleserver
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@ansibleserver
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@ansibleclient
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@mariadb
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@sdpclient
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@sdpserver
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@sdpaaa
+#ssh-copy-id -i ~/.ssh/local.rsa.pub johnoraw@pycharm1

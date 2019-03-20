@@ -1,19 +1,26 @@
 127.0.0.1  	 localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1        		 localhost localhost.localdomain localhost6 localhost6.localdomain6
+::1        	 localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
 
 # Definitions by JOR 13MAR19
-192.168.234.1   	W10-JOR
-192.168.234.11    PyCharm1
+192.168.234.1	 W10-JOR
+192.168.234.11   PyCharm1
 
 # Interiority
-192.168.234.21    SDPClient
-192.168.234.22    SDPServer
-192.168.234.23    SDPAAA
+192.168.234.21   SDPClient
+192.168.234.22   SDPServer
+192.168.234.23   SDPAAA
 
 # DB Servers
-192.168.234.31    MariaDB
+192.168.234.31   MariaDB
 
 # Ansible Server
-192.168.234.51  	AnsibleServer
-192.168.234.52  	AnsibleTarget
+192.168.234.51   AnsibleServer
+192.168.234.52   AnsibleTarget
 

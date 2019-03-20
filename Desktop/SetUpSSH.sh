@@ -18,15 +18,19 @@ read
 
 # Generate new keys
 cd ~/.ssh
-#ssh-keygen -t rsa -b 4096 -C john.oraw@hotmail.com
+#ssh-keygen -t rsa -b 4096 -f ~/.ssh/git.rsa -C john.oraw@hotmail.com
+#ssh-keygen -t rsa -b 4096 -f ~/.ssh/local.rsa -C john.oraw@hotmail.com
 
 # Or copy keys from another server
-scp johnoraw@192.168.191.11:.ssh/* ~/.ssh/
+#scp johnoraw@192.168.191.11:.ssh/local* ~/.ssh/
+#scp johnoraw@192.168.191.11:.ssh/git* ~/.ssh/
 
 # Start the ssh agent
 eval "$(ssh-agent -s)"
 
 # Add keys to the SSH agent
-ssh-add ~/.ssh/JOR.rsa
+ssh-add ~/.ssh/git.rsa
+ssh-add ~/.ssh/local.rsa
 cd
+
 

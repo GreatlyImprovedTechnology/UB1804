@@ -12,7 +12,7 @@ echo "****************************************************"
 
 # Set variables based on VMWare Workstation NAT’d network
 HOSTNAME=ansibleserver
-IPADDR="192.168.234.51/24"
+IPADDR="192.168.234.50/24"
 ADAPTER="ens33:"
 GATEWAY4="192.168.234.2"
 DNS1="9.9.9.9"

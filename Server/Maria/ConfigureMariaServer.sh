@@ -2,7 +2,7 @@
 # by: JOR
 # Date: 25FEB19
 # Function: Configure network settings in UB18.04.02
-# Script: NetworkSettings.sh
+# Script: ConfigureMariaServer.sh
 
 echo "****************************************************"
 echo "Welcome" $USER

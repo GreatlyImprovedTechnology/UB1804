@@ -1,6 +1,23 @@
+
 ---
-- hosts: ub1804-maria
-  remote_user: johnoraw
+- hosts: dbservers
+  become: true
+
   tasks:
-   
-  become: yes
+   - name: Update servers
+     apt: update_cache=yes
+
+   - name: Upgrade servers
+     apt: upgrade=dist
+
+   - name: Install MariaDB Packages
+     apt: name={{item}} state=present update_cache=yes
+     with_items:
+       - mariadb-client
+       - mariadb-common
+       - mariadb-server
+
+   - name: Start MariaDB
+     service: name=mysql state=started
+
+

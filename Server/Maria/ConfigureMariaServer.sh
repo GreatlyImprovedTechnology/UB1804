@@ -40,3 +40,7 @@ network:
           addresses: [$DNS1]
 EOF
 sudo netplan apply
+
+# Install Python2 for Ansible automation
+sudo apt install python-minimal python-simplejson
+

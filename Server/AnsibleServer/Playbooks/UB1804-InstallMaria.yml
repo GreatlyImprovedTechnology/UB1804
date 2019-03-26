@@ -1,0 +1,6 @@
+---
+- hosts: ub1804-maria
+  remote_user: johnoraw
+  tasks:
+   
+  become: yes

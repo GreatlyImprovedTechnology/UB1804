@@ -22,11 +22,19 @@ sudo apt-get upgrade -y
 sudo apt install mariadb-client
 sudo apt install mariadb-common
 sudo apt install mariadb-server
+sudo systemctl enable mariadb
+sudo systemctl start mariadb
 echo "****************************************************"
 echo "Checking Status"
 sudo systemctl status mariadb -q
 echo "****************************************************"
 echo "Securing systems"
 echo "Please note passwords and settings used in the next section"
+echo "Restrict root user remote login!!"
+echo "Remove the test databse"
+echo "Reload the new privilege"
 sudo mysql_secure_installation
+echo "****************************************************"
+echo "Setting Firewall for remote access"
+sudo ufw allow from 192.168.234.0/24 to any port 3306
 

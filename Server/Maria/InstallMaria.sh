@@ -19,10 +19,12 @@ echo "****************************************************"
 echo "Installing..."
 sudo apt-get update -y
 sudo apt-get upgrade -y
+sudo apt install mariadb-client
+sudo apt install mariadb-common
 sudo apt install mariadb-server
 echo "****************************************************"
 echo "Checking Status"
-sudo systemctl status mariadb
+sudo systemctl status mariadb -q
 echo "****************************************************"
 echo "Securing systems"
 echo "Please note passwords and settings used in the next section"

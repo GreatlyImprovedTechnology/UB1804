@@ -7,6 +7,7 @@
 #sudo apt install -y python-pip
 sudo apt install -y python3-pip
 sudo apt install -y python3-dev
+sudo apt install -y python3-mysqldb
 #sudo apt install python-dev
 sudo apt install -y python3-venv
 pip3 install mysql-connector-python

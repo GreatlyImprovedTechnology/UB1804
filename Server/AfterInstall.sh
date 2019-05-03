@@ -6,7 +6,7 @@
 
 sudo apt-get -y update
 sudo apt -y upgrade
-sudo apt install open-vm-tools
-sudo apt install open-vm-tools-desktop
-sudo apt install openssh-server
-sudo apt install git
+sudo apt install -y open-vm-tools
+sudo apt install -y open-vm-tools-desktop
+sudo apt install -y openssh-server
+sudo apt install -y git

@@ -25,3 +25,5 @@ ff02::2 ip6-allrouters
 192.168.234.51   AnsibleTarget1
 192.168.234.52   AnsibleTarget2
 
+# Desktops
+192.168.234.61  ub1804-iotech1

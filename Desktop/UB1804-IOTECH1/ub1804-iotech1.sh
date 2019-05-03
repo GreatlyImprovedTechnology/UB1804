@@ -17,6 +17,12 @@ ADAPTER="ens33:"
 GATEWAY4="192.168.234.2"
 DNS1="9.9.9.9"
 
+echo "****************************************************"
+echo "Configuring Hostname"
+echo "Make sure /etc/cloud/cloud.cfg has the setting"
+echo "preserve_hostname: true"
+echo "****************************************************"
+
 if hostnamectl set-hostname $HOSTNAME
  then
   echo "Set hostname to" $HOSTNAME ", requires a reboot"

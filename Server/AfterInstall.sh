@@ -4,7 +4,7 @@
 # Function: Install software and do updates required for all systems
 # Script: AfterInstall.sh
 
-sudo apt-get update
+sudo apt-get -y update
 sudo apt -y upgrade
 sudo apt install open-vm-tools
 sudo apt install open-vm-tools-desktop
